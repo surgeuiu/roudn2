@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<Button
+		android:id="@+id/btnQuit"
+		android:layout_width="120dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_margin="3dp"
+		android:layout_alignParentLeft="true"
+		android:text="Quit" />
+
+	<TextView
+		android:id="@+id/tvTimeCount"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/timeText"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="5dp"
+		style="@style/normalText" />
+
+	<TextView
+		android:id="@+id/tvTimeRemain"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/timeRemain"
+		android:layout_toLeftOf="@id/tvTimeCount"
+		android:layout_marginRight="5dp"
+		android:layout_marginLeft="5dp"
+		style="@style/normalText" />
+
+	<TextView
+		android:id="@+id/tvChooseQues"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/chooseQues"
+		android:layout_below="@id/btnQuit"
+		android:layout_marginTop="5dp"
+		style="@style/title" />
+
+	<ListView
+		android:id="@android:id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/tvChooseQues"
+		android:layout_margin="5dp" />
+
+
+</RelativeLayout>

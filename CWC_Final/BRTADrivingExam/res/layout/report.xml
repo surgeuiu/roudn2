@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+	<TextView
+		android:id="@+id/tvResult"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Result"
+		style="@style/normalText"
+		/>
+
+	<View
+		android:id="@+id/viewLine"
+		android:layout_width="fill_parent"
+		android:layout_height="2dip"
+		android:layout_marginTop="5dip"
+		android:background="#FFF"
+		android:layout_below="@id/tvResult"/>
+
+	<ScrollView
+		android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@id/viewLine">
+
+		<TextView
+			android:id="@+id/tvTemp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Sample Report"
+			style="@style/normalText"
+			/>
+
+	</ScrollView>
+
+
+
+
+
+</RelativeLayout>

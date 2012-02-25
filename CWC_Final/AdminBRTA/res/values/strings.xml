@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, BRTADrivingExamActivity!</string>
+    <string name="app_name">BRTA Admin Page</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="pin_number">Password</string>
+    <string name="login">Login</string>
+    <string name="please_wait">Please Wait ...</string>
+    <string name="task_progress">Task is in Progress ...</string>
+    <string name="instruction">Exam Instruction</string>
+
+    <string name="helpText1">1. Contestant teams will create 5 (five) sets of questions.
+        Each set will contain questions with each of the images given below per category and users (examinees)
+        will be presented randomly any 10 questions per category. Contestant teams will create database of
+        questions and also create 3 other options for each of the questions along with the right answers.
+        Right answers are given below each of road signs in the below images</string>
+
+    <string name="helpText2">2. User (examinee) will login with credentials and starts the exam.
+        A timer will start and the exact time of starting the exam will be saved in database.
+        When the timer reaches 30 minutes, the application will not let the user answer any more questions.</string>
+
+    <string name="helpText3">3. If any user starts exam and quits, he/she will not be given further access
+        If time is over user will be taken to Result screen
+        The application database will be designed in such a way so that the results of
+        the examinees can be accessed from another application</string>
+
+    <string name="helpText4">4. This document describes the detailed functional and nonfunctional requirements
+        for the project to be completed during Final Battle of the BASIS Code Warriors’
+        Challenge 2012 (Android Track). Before the onsite contest on the specified date by BASIS,
+        contestant teams have to complete the specified features according to this document.
+        During the onsite contest, contestant teams will be given some problem sets for professional
+        and student categories. There will be 3-4 problems and requirements changes to be done during
+        the battle session. Teams are expected to solve the problems and incorporate the requirements
+        changes in their project. Application will be tested in emulators and source code will be reviewed
+        by the Jury members.</string>
+
+    <string name="helpText5">5. Each question will have weight of 2 (two). For any wrong answer user will be penalized with
+        negative marking of 1 (one). so the exam will be out of 100</string>
+
+    <string name="timeRemain">Time Left: </string>
+    <string name="timeText">30:00</string>
+    <string name="chooseQues">Choose your question set</string>
+    <string name="text_view">Category</string>
+    <string name="question1">What is the sign?</string>
+    <string name="completeAns">(0/0)</string>
+    <string name="reportResult">Report Result</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+	<ImageView
+		android:id="@+id/iconCheck"
+		android:layout_width="19dp"
+		android:layout_height="19dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginRight="7dp"
+		android:layout_marginTop="10dp" />
+
+	<TextView
+		android:id="@+id/tvCategoryName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="@style/categoryName"
+		android:layout_margin="8dp"
+		android:layout_toRightOf="@id/iconCheck"
+		android:text="@string/text_view"/>
+
+    <TextView
+            android:id="@+id/tvCompleteAns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/categoryName"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@id/tvCategoryName"
+            android:text="@string/completeAns"/>
+
+
+
+</RelativeLayout>

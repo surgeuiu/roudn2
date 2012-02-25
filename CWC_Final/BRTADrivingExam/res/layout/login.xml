@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+	<TextView
+		android:id="@+id/tvWelcome"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="5dp"
+		android:text="@string/welcome_to"
+		android:textSize="15sp"
+		android:typeface="sans"
+		android:textStyle="bold"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true" />
+
+
+	<TextView
+		android:id="@+id/tvCwcCourierClient"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/app_name"
+		android:textSize="19sp"
+		android:typeface="sans"
+		android:textStyle="bold"
+		android:gravity="center"
+		android:layout_below="@id/tvWelcome"
+		android:layout_centerHorizontal="true" />
+
+	<TextView
+		android:id="@+id/tvUserName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="5dp"
+		android:text="@string/registration_number"
+		android:typeface="sans"
+		android:textStyle="bold"
+		android:layout_below="@+id/tvCwcCourierClient" />
+
+	<EditText
+		android:id="@+id/etRegistrationNumber"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="3dp"
+		android:hint="@string/registration_number"
+		android:textSize="15sp"
+		android:typeface="sans"
+		android:gravity="left"
+		android:inputType="number"
+		android:layout_below="@id/tvUserName" />
+
+	<TextView
+		android:id="@+id/tvPassword"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="3dp"
+		android:text="@string/pin_number"
+		android:typeface="sans"
+		android:textStyle="bold"
+		android:layout_below="@id/etRegistrationNumber" />
+
+	<EditText
+		android:id="@+id/etPinNumber"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="3dp"
+		android:hint="@string/pin_number"
+		android:textSize="15sp"
+		android:typeface="sans"
+		android:password="true"
+		android:gravity="left"
+		android:inputType="textVisiblePassword"
+		android:layout_below="@+id/tvPassword" />
+
+	<View
+		android:id="@+id/line"
+		android:layout_width="fill_parent"
+		android:layout_height="2dip"
+		android:layout_marginTop="5dip"
+		android:background="#FFF"
+		android:layout_below="@id/etPinNumber"/>
+
+	<Button
+	    android:id="@+id/btnLogin"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/line"
+	    android:layout_marginTop="10dp"
+	    android:text="@string/login"
+	    android:textStyle="bold"
+	    android:typeface="sans" />
+
+</RelativeLayout>

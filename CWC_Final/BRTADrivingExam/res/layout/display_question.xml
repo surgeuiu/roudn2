@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollOptions"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+<RelativeLayout
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+	<TextView
+		android:id="@+id/tvQuestion"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/question1"
+		android:gravity="center"
+		android:layout_marginTop="5dp"
+		android:layout_centerHorizontal="true"
+		style="@style/title.ques" />
+
+
+
+	<ImageView
+		android:id="@+id/imageViewQuestion"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="2dp"
+		android:layout_below="@id/tvQuestion"
+		android:layout_centerHorizontal="true"
+		android:src="@drawable/surge_1" />
+
+	<RadioGroup
+		android:id="@+id/radioGroup1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	    android:layout_below="@id/imageViewQuestion"
+		>
+
+		<RadioButton
+			android:id="@+id/radio0"
+			style="@style/title.option"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="40dp"
+			android:text="RadioButton"
+			/>
+
+		<RadioButton
+			android:id="@+id/radio1"
+			style="@style/title.option"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="40dp"
+			android:text="RadioButton" />
+
+		<RadioButton
+			android:id="@+id/radio2"
+			style="@style/title.option"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="40dp"
+			android:text="RadioButton" />
+
+		<RadioButton
+			android:id="@+id/radio3"
+			style="@style/title.option"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="40dp"
+			android:text="RadioButton" />
+	</RadioGroup>
+
+
+	<Button
+		android:id="@+id/btnNextQues"
+		android:layout_width="120dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_margin="3dp"
+		android:layout_below="@id/radioGroup1"
+		android:layout_alignParentRight="true"
+		android:text="Next" />
+
+	<Button
+		android:id="@+id/btnPrevQues"
+		android:layout_width="120dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_margin="3dp"
+		android:layout_below="@id/radioGroup1"
+		android:layout_alignParentLeft="true"
+		android:text="Previous" />
+
+</RelativeLayout>
+</ScrollView>
